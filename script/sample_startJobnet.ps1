@@ -12,7 +12,9 @@
 #--------------------------------------------------
 # 初期化処理
 #
-. ($PSScriptRoot + "\initJobnet.ps1") $null
+. ($PSScriptRoot + "\initJobnet.ps1")
+psjn_initialize $null
+
 #--------------------------------------------------
 
 echo "startJobnet.ps1"

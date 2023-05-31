@@ -10,12 +10,12 @@ param (
 )
 . $profilepath
 set-location $currentdir
-. .\initJobnet.ps1 $profilepath
+. .\initJobnet.ps1
+psjn_initialize $profilepath
 #--------------------------------------------------
 
 echo "jobG.ps1"
 sleep 5
-psjn_sweepholdcount
 
 #--------------------------------------------------
 # 後続ジョブ無し

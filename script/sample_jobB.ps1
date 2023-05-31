@@ -10,7 +10,8 @@ param (
 )
 . $profilepath
 set-location $currentdir
-. .\initJobnet.ps1 $profilepath
+. .\initJobnet.ps1
+psjn_initialize $profilepath
 #--------------------------------------------------
 
 echo "jobB.ps1"

@@ -44,7 +44,8 @@ Usage: psjn_sweepholdcount
 ## ジョブネット開始スクリプト作成のルール
 スクリプトの先頭は以下の行で始めること。
 ```
-. ($PSScriptRoot + "\initJobnet.ps1") $null
+. ($PSScriptRoot + "\initJobnet.ps1")
+psjn_initialize $null
 ```
 
 ジョブネットを構成するスクリプトのホールドカウント(保留数)を設定する。
@@ -82,7 +83,8 @@ param (
 )
 . $profilepath
 set-location $currentdir
-. .\initJobnet.ps1 $profilepath
+. .\initJobnet.ps1
+psjn_initialize $profilepath
 ```
 以降のカレントディレクトリは「script」になる。
 

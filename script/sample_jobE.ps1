@@ -10,11 +10,12 @@ param (
 )
 . $profilepath
 set-location $currentdir
-. .\initJobnet.ps1 $profilepath
+. .\initJobnet.ps1
+psjn_initialize $profilepath
 #--------------------------------------------------
 
 echo "jobE.ps1"
-sleep 10
+sleep 5
 
 #--------------------------------------------------
 # 後続ジョブのリリース
