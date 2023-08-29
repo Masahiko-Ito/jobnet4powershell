@@ -1,8 +1,8 @@
 ﻿# Jobnet for Powershell
 
-Jobnet for Powershell は、複数のPowershellスクリプトによるジョブネットを実
-現します(メインフレームのバッチ処理の世界からPowershellの世界にやって来られ
-た方々のお役に立てれば幸いです)
+Jobnet for Powershell は、複数のPowershellスクリプトによるジョブネットを実現
+します(メインフレームのバッチ処理の世界からPowershellの世界にやって来られた
+方々のお役に立てれば幸いです)
 
 ## psjn_setholdcount - スクリプトのホールドカウント(保留数)を設定する
 ```
